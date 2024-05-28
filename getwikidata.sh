@@ -1,4 +1,4 @@
-"- Downloading wikitext-103-v1 (Word)"
+echo "- Downloading wikitext-103-v1 (Word)"
 python prep_wiki.py
 mkdir -p data
 mv wikitext-103/ data/wikitext-103/
