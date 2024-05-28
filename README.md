@@ -1,3 +1,7 @@
+# To Clone The Fork for this Repo:
+
+git clone https://$GIT_USERNAME:$GIT_PASSWORD@github.com/snergun/transformer-xl.git
+
 # Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context
 
 This repository contains the code in both **PyTorch** and **TensorFlow** for our paper
