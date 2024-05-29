@@ -2,7 +2,7 @@
 
 if [[ $1 == 'train' ]]; then
     echo 'Run training...'
-    python train.py \
+    python train_DDP.py \
         --cuda \
         --data ../data/wikitext-103/ \
         --dataset wt103 \
