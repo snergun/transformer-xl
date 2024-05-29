@@ -22,7 +22,9 @@ if [[ $1 == 'train' ]]; then
         --tgt_len 384 \
         --mem_len 384 \
         --eval_tgt_len 128 \
-        --batch_size 2 \
+        --batch_size 8 \
+        --multi_gpu \
+
         ${@:2}
 elif [[ $1 == 'eval' ]]; then
     echo 'Run evaluation...'
